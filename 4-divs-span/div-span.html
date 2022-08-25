@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divs e Spans</title>
+
+    <style>
+        #topo {
+            background-color: #020620;
+            color: #f2d8a7;
+        }
+
+        #conteudo {
+            background-color: #f2d8a7;
+        }
+
+        .produto {
+            background-color: #020620;
+            color: #f2d8a7;
+            margin: 10px;
+        }
+
+        #rodape {
+            background-color: #020620;
+            color: #f2d8a7;
+        }
+
+        #assinatura {
+            background-color: #020620;
+            color: #f2d8a7;
+        }
+    </style>
+</head>
+<body>
+    <div id="topo">
+        <img src="imagens/logo.png" width="200">
+        <ul>
+            <li>Home</li>
+            <li>Serviços</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+    <div id="conteudo">
+        <div class="produto">
+            Serviço 1
+        </div>
+        <div class="produto">
+            Serviço 2
+        </div>
+        <div class="produto">
+            Serviço 3
+        </div>
+    </div>
+    <div id="rodape">
+        Todos os direitos reservados!
+    </div>
+
+    <span id="assinatura">
+        Borcelle Faustino
+    </span>
+</body>
+</html>
+
+<!-- Divs são elementos do tipo block, isso quer dizer que ocupam todo o espaço da tela. Outra observação é que elementos do tipo block ficam sempre um abaixo do outro, diferente de elementos do tipo inline como span que ficam agrupados um após o outro.-->
