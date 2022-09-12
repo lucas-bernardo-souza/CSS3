@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cor e imagem de fundo</title>
+
+    <style type="text/css">
+        .fundo {
+            background-color: blue;
+            color: white;
+        }
+
+        body {
+            background-image: url('imagem/yoshi.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Deixa a imagem fixa no plano de fundo, ela não se movimenta */
+                                            /* Outro parâmetro é o scroll onde a imagem rola com o conteudo */
+            background-position: center top;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="fundo">Conteudo de titulo 1</h1>
+</body>
+</html>
